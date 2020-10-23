@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>當前點擊次數{{ count }}</h1>
+    <h1 data-testid="currentCounter">當前點擊次數{{ count }}</h1>
     <button
       type="button"
       @click="increment()"
